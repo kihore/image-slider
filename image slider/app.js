@@ -17,7 +17,7 @@ const Images = async () => {
 const imgObject = []
 Images().then(data => {
     var i = 0
-    data.forEach(data => {
+    data.forEach( => {
         const div = document.createElement('div')
         div.classList.add('image')
         image_slider.appendChild(div)
